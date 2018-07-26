@@ -1,5 +1,6 @@
-import React, {PropTypes, Component} from 'react';
+import React, {Component} from 'react';
 import {requireNativeComponent, Dimensions, NativeModules, View} from 'react-native';
+import PropTypes from 'prop-types';
 
 const { width , height } = Dimensions.get('window');
 
